@@ -7,7 +7,7 @@
 }
 
 #blue {
-	color: blue;
+  color: blue;
 }
 
 h1 {
@@ -32,14 +32,14 @@ p {
 }
 
 #second-headline {
-	color: blue;
-	font-size: 60px;
-	background-color: #56f442;
+  color: blue;
+  font-size: 60px;
+  background-color: #56f442;
 }
 
 .first-para {
-	color:pink;
-	font-size: 24px;
+  color:pink;
+  font-size: 24px;
 }
 
 span {color:yellow;}
