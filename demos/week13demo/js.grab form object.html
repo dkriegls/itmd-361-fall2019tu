@@ -3,15 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style type="text/css">
-		div {
-			width: 100px;
-			height: 100px;
-			background-color: blue;
-			margin: 10px;
-			color: #fff;
-		}
-	</style>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/final_script.js"></script>
 </head>
 <body>
 	<div id="div1"></div>
@@ -19,11 +12,11 @@
 	<form>
 	<input type="text" id="textcontrol">
 	</form>
-	<!--"Inspector Demo Form Interaction"
+  <script>
 		var fc = document.getElementById('textcontrol')
-		fc.value
+		//use fc.value in inspector to see the input value
 		alert(fc.value);
-		fc.value = "new value";		
-	-->
+		fc.value = "javascript worked";	
+  </script>
 </body>
 </html>
